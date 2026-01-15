@@ -64,7 +64,7 @@ function App() {
                 <button onClick={addTask}>Ajouter</button>
             </div>
 
-            /* Affichage du tableau */
+            {/* Affichage du tableau*/}
             <DataTable
                 columns={columns}
                 data={taskList}
